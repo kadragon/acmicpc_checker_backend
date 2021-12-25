@@ -1,0 +1,5 @@
+###
+GET http://localhost:1323/acmicpc/convert/9110 HTTP/1.1
+
+###
+GET http://localhost:1323/acmicpc/check/1 HTTP/1.1

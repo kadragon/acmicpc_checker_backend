@@ -1,0 +1,18 @@
+###
+GET http://localhost:1323/assignment HTTP/1.1
+
+###
+GET http://localhost:1323/assignment/1 HTTP/1.1
+
+###
+POST http://localhost:1323/assignment HTTP/1.1
+Content-Type: application/json
+
+{
+    "class_info_id": 4,
+    "name": "강동욱",
+    "assignment_count": 0,
+    "start_time": "2021-11-11",
+    "end_time": "2021-11-11",
+    "problem_list": "1234"
+}

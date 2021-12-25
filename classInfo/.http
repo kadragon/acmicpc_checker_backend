@@ -1,0 +1,8 @@
+###
+GET http://localhost:1323/classInfo HTTP/1.1
+
+###
+GET http://localhost:1323/classInfo/1 HTTP/1.1
+
+###
+GET http://localhost:1323/classInfo/student/1 HTTP/1.1

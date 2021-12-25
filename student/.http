@@ -1,0 +1,36 @@
+POST http://localhost:1323/student HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "kadragon@sasa.hs.kr", 
+    "acmicpc_id": "kadragon", 
+    "rname": "강동욱"
+}
+
+### 
+
+GET http://localhost:1323/student/1 HTTP/1.1
+
+###
+
+PUT http://localhost:1323/student/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": 1,
+    "email": "kadragon@sasa.hs.kr", 
+    "acmicpc_id": "sasa", 
+    "rname": "강동욱"
+}
+
+### student delete
+DELETE http://localhost:1323/student/1 HTTP/1.1
+
+### student list all
+GET http://localhost:1323/student HTTP/1.1
+
+### student list rname query
+GET http://localhost:1323/student?rname=강동욱 HTTP/1.1
+
+### student list grade query
+GET http://localhost:1323/student?grade=1 HTTP/1.1

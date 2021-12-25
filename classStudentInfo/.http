@@ -1,0 +1,5 @@
+###
+GET http://localhost:1323/classStudent HTTP/1.1
+
+###
+GET http://localhost:1323/classStudent?class_info_id=2 HTTP/1.1
